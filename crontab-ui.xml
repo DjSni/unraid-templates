@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>crontab-ui</Name>
+  <Repository>alseambusher/crontab-ui</Repository>
+  <Registry>https://hub.docker.com/r/alseambusher/crontab-ui/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/alseambusher/crontab-ui/</Support>
+  <Project/>
+  <Overview>https://github.com/alseambusher/crontab-ui&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/alseambusher/crontab-ui/</Overview>
+  <Category>Tools / Utilities<Category/>
+  <WebUI>http://[IP]:[PORT:8000]/</WebUI>
+  <TemplateURL/>
+  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <ExtraParams/>--hostname=crontab<ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1640805106</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>https://github.com/alseambusher/crontab-ui&#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/alseambusher/crontab-ui/</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8085</HostPort>
+        <ContainerPort>8000</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="webui" Target="8000" Default="8000" Mode="tcp" Description="Container Port: 8000" Type="Port" Display="always" Required="false" Mask="false">8085</Config>
+</Container>
