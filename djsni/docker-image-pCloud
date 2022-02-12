@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>docker-image-pcloud</Name>
+  <Repository>dersni/docker-image-pcloud</Repository>
+  <Registry>https://hub.docker.com/r/dersni/docker-image-pcloud/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/dersni/docker-image-pcloud/</Support>
+  <Project/>
+  <Overview>
+  
+  
+  
+  
+  &#xD;
+&#xD;
+Converted By Community Applications   Always verify this template (and values)  against the support page for the container&#xD;
+&#xD;
+https://hub.docker.com/r/dersni/docker-image-pcloud/</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://blog.pcloud.com/wp-content/uploads/2018/04/pCloud-logo.png</Icon>
+  <ExtraParams>--cap-add SYS_ADMIN --device /dev/fuse --security-opt apparmor:unconfine -v /mnt/disks/pcloud/:/pcloud:shared</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="PCLOUD_USER" Target="PCLOUD_USER" Default="email@example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="Docker Path" Target="/root/.pcloud/" Default="/mnt/domain/appdata/pcloud/" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false"></Config>
+  <Config Name="pcloud drive mount path" Target="PCLOUD_MOUNT" Default="/pcloud" Mode="" Description="Container Variable: PCLOUD_MOUNT" Type="Variable" Display="advanced-hide" Required="true" Mask="false">/pcloud</Config>
+</Container>
